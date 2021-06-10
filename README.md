@@ -9,4 +9,5 @@ Design of the page is to the specifications of the assignment having working nav
 URL: https://thomasseifert1.github.io/hw-2-portfolio/
 
 Screenshot: 
+https://github.com/ThomasSeifert1/hw-2-portfolio/blob/main/images/Screenshot%20(2).png
 
