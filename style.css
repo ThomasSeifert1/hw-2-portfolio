@@ -95,7 +95,7 @@ header ul li{
     border-right: 1px solid black;
     padding: 20px;
 }
-
+/* sets the area to a flexbox  */
 .projects{
     display: flex;
     flex-direction: row;
@@ -104,12 +104,29 @@ header ul li{
 /* getting the images in the correct formatting  */
 img.repo{
     position: relative;
-    display: flex;
-    width: 50%;
+    width: 300px;
+    height: 250px;
 }
-img.google{
+img.w3schools{
+   
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    width: 20%;
+    
+    height: 250px;
+    width: 250px;
 }
+
+img.google{
+    
+    position: relative;
+    height: 250px;
+    width: 250px;
+    
+}
+ 
+.projects a {
+    padding-left: 10px;
+}
+
+
+   
+    
