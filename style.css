@@ -23,7 +23,7 @@ header{
     width: 100%;
     padding: 25px;
     display: inline-block;
-    margin-bottom: 20px;
+   margin-bottom: 40px;
 
 }
 
@@ -36,7 +36,7 @@ h1{
 .navigation {
     text-align: right;
 }
-
+/* targets the specific list in the header instead of all lists */
 header ul li{
     display: inline;
     animation: none;
@@ -56,12 +56,15 @@ header ul li{
 .navigation a:hover {
     box-shadow: inset 0 0 5px 0 whitesmoke, 0 0 8px 0 whitesmoke;
 }
+/* could condense into all h2 tags next time  */
 
 .about-me h2 {
+    background-color: var(--design);
     font-size: 20px;
     padding-left: 10px;
-    border-right: 1px solid black;
+    border-right: 2px solid whitesmoke;
     padding: 20px;
+    color: whitesmoke;
 }
 .about-me{
     display: flex;
@@ -70,7 +73,7 @@ header ul li{
     width: 75%;
     padding: 20px;
     margin-left: 25px;
-    margin-bottom: 20px ;
+    margin-bottom: 40px ;
 
 }
 
@@ -85,15 +88,16 @@ header ul li{
     width: 75%;
     padding: 20px;
     margin-left: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .work h2 {
-    
+    background-color: var(--design);
     font-size: 20px;
     padding-left: 10px;
-    border-right: 1px solid black;
+    border-right: 2px solid whitesmoke;
     padding: 20px;
+    color: whitesmoke;
 }
 /* sets the area to a flexbox  */
 .projects{
@@ -127,6 +131,48 @@ img.google{
     padding-left: 10px;
 }
 
+.contact {
+    display: flex;
+    position: relative;
+    background-color: cornflowerblue;
+    width: 75%;
+    padding: 20px;
+    margin-left: 25px;
+    margin-bottom: 40px;
 
-   
+
+}
+
+.contact h2{
+    background-color: var(--design);
+    font-size: 20px;
+    padding-left: 10px;
+    border-right: 2px solid whitesmoke;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+
+section.contact ul li{
+    text-align: center;
+    display: inline-flex;
+    padding: 20px;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    background-color: var(--design);
+    color: whitesmoke;
+    position: relative;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+ /* update picture soon with better photo */
+ .pictureme {
+     height: 150px;
+     width: 100px;
+ }
     
